@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/alta.css">
+    <script src="js/alta.js"></script>
+    <title>Alta</title>
+    
+    
+  </head>
+  <body>
+    <body onload="getPatients(); getMedicines()">
+      <div id="formulario">
+        <label for="XipId">ID de Xip: </label>
+        <input type="text" id="XipId" name="XipId" /> <br />
+  
+        <select name="idMed" id="idMed"></select><br />
+  
+        <select name="pMail" id="pMail"></select><br />
+  
+        <input type="date" name="Date" id="Date" /><br />
+        
+        <button onclick="enviar()">Guardar</button>
+        <button onclick="location.href='Gestio.html'">Volver</button>
+      </div>
+
+    
+  </body>
+</html>

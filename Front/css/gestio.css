@@ -1,0 +1,126 @@
+body {
+    font-family: 'Overpass', sans-serif;
+    font-weight: normal;
+    font-size: 100%;
+    color: #1b262c;
+    
+    margin: 0;
+    background-color: #0f4c75;
+}
+
+#contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Modificación: alineación superior */
+    height: 100vh;
+    background-color: #0f4c75;
+    overflow: hidden; /* Modificación: ocultar el desbordamiento */
+}
+
+#central {
+    max-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#login {
+    width: 100%;
+    padding: 50px 30px;
+    background-color: #3282b8;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+}
+
+#tabla {
+    width: 100%;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+}
+
+#login input {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color: #1b262c;
+    
+    display: block;
+    width: 100%;
+    height: 40px;
+    
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 10px;
+    
+    box-sizing: border-box;
+    
+    border: none;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+}
+
+#login button {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color:#1b262c;
+    width: 100%;
+    height: 40px;
+    border: none;
+    
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    
+    background-color: #bbe1fa;
+    
+    margin-top: 10px;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    justify-content: center;
+    
+  }
+  
+  /* Estilos para las celdas encabezado */
+  table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+  }
+  
+  /* Estilos para las celdas normales */
+  table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Estilos alternativos para filas impares */
+  table tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Estilos para resaltar cuando se pasa el cursor por encima */
+  table tr:hover {
+    background-color: #e5e5e5;
+  }
+  
+  /* Estilos para la primera columna (opcional) */
+  table td:first-child {
+    font-weight: bold;
+  }
+  
+
+
+
+
